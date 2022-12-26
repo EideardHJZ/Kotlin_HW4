@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
     override fun onDestroy() {
-        unregisterReceiver(receiver) //註銷廣播
+        unregisterReceiver(receiver) 
         super.onDestroy()
     }
     private fun register(channel: String) {
